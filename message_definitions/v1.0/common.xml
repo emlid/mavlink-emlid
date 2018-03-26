@@ -4263,7 +4263,7 @@
       <description>Save wifi network on device</description>
       <field type="char[32]" name="ssid">Name of Wi-Fi network</field>
       <field type="uint8_t" name="security_type" enum="WIFI_SECURITY_TYPE">See the WIFI_SECURITY_TYPE enum.</field>
-      <field type="char[64]" name="password">Password</field>
+      <field type="char[63]" name="password">Password</field>
     </message>
     <message id="404" name="WIFI_NETWORK_DELETE">
       <description>Delete wifi network from device</description>
